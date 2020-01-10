@@ -7258,5 +7258,23 @@
         </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>dvakop</name>
+        <description>Dvakop</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>dvakop:dvakop</name>
+          <description>Dvakop</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>dvakop:modifiers</name>
+          <description>Dvakop modifiers</description>
+        </configItem>
+      </option>
+    </group>
   </optionList>
 </xkbConfigRegistry>
