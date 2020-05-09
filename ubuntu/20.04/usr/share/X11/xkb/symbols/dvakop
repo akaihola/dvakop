@@ -1,0 +1,63 @@
+// https://realh.co.uk/wp/linux-keymap-hacking/
+
+partial modifier_keys
+xkb_symbols "modifiers" {
+    // Eliminate CapsLock, making it another Ctrl.
+    replace key <CAPS> { [ Control_L, Control_L ] };
+    modifier_map Control { <CAPS> };
+
+    replace key <LCTL> { [ Hyper_L, Hyper_L ] };
+    modifier_map Mod4 { <LCTL> };
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "dvakop" {
+    key <TLDE> { [  section,         XF86_Switch_VT_8, onequarter,        threequarters   ] };
+    key <AE01> { [  1,               exclam,           exclamdown,        onesuperior     ] };
+    key <AE02> { [  2,               quotedbl,         at,                twosuperior     ] };
+    key <AE03> { [  3,               numbersign,       sterling,          threesuperior   ] };
+    key <AE04> { [  4,               currency,         dollar,            cent            ] };
+    key <AE05> { [  5,               percent,          EuroSign,          masculine       ] };
+    key <AE06> { [  6,               ampersand,        yen,               ordfeminine     ] };
+    key <AE07> { [  7,               slash,            braceleft,         plusminus       ] };
+    key <AE08> { [  8,               parenleft,        bracketleft,       guillemotleft   ] };
+    key <AE09> { [  9,               parenright,       bracketright,      guillemotright  ] };
+    key <AE10> { [  0,               equal,            braceright,        degree          ] };
+    key <AE11> { [  plus,            question,         backslash,         questiondown    ] };
+    key <AE12> { [  apostrophe,      grave,            dead_acute,        dead_grave      ] };
+    key <LatQ> { [  q,               Q,                NoSymbol,          NoSymbol        ] };
+    key <LatW> { [  comma,           semicolon,        NoSymbol,          NoSymbol        ] };
+    key <LatE> { [  period,          colon,            EuroSign,          NoSymbol        ] };
+    key <LatR> { [  adiaeresis,      Adiaeresis,       NoSymbol,          NoSymbol        ] };
+    key <LatT> { [  y,               Y,                thorn,             THORN           ] };
+    key <LatY> { [  f,               F,                y,                 Y               ] };
+    key <LatU> { [  j,               J,                adiaeresis,        Adiaeresis      ] };
+    key <LatI> { [  r,               R,                period,            colon           ] };
+    key <LatO> { [  m,               M,                comma,             semicolon       ] };
+    key <LatP> { [  v,               V,                q,                 Q               ] };
+    key <AD11> { [  bracketleft,     braceleft,        asciicircum,       dead_abovering  ] };
+    key <AD12> { [  bracketright,    braceright,       asciitilde,        dead_diaeresis  ] };
+    key <LatA> { [  a,               A,                U0259,             U018F           ] };
+    key <LatS> { [  o,               O,                ssharp,            NoSymbol        ] };
+    key <LatD> { [  e,               E,                EuroSign,          cent            ] };
+    key <LatF> { [  u,               U,                u,                 U               ] };
+    key <LatG> { [  i,               I,                NoSymbol,          NoSymbol        ] };
+    key <LatH> { [  k,               K,                i,                 I               ] };
+    key <LatJ> { [  l,               L,                u,                 U               ] };
+    key <LatK> { [  t,               T,                e,                 E               ] };
+    key <LatL> { [  n,               N,                o,                 O               ] };
+    key <AC10> { [  s,               S,                a,                 A               ] };
+    key <AC11> { [  minus,           underscore,       endash,            emdash          ] };
+    key <BKSL> { [  slash,           asterisk,         dead_caron,        dead_breve      ] };
+    key <LatZ> { [  z,               Z,                zcaron,            Zcaron          ] };
+    key <LatX> { [  x,               X,                multiply,          U00B7           ] };
+    key <LatC> { [  odiaeresis,      Odiaeresis,       NoSymbol,          NoSymbol        ] };
+    key <LatV> { [  d,               D,                eth,               ETH             ] };
+    key <LatB> { [  b,               B,                Thai_baht,         NoSymbol        ] };
+    key <LatN> { [  p,               P,                d,                 D               ] };
+    key <LatM> { [  h,               H,                odiaeresis,        Odiaeresis      ] };
+    key <AB08> { [  g,               G,                x,                 X               ] };
+    key <AB09> { [  c,               C,                z,                 Z               ] };
+    key <AB10> { [  w,               W,                less,              greater         ] };
+};
