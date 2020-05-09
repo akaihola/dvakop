@@ -6284,7 +6284,7 @@
        </variant>
       </variantList>
     </layout>
-    <layout> 
+    <layout>
       <configItem>
         <name>jv</name>
         <shortDescription>jv</shortDescription>
@@ -7605,6 +7605,24 @@
         <configItem>
           <name>terminate:ctrl_alt_bksp</name>
           <description>Ctrl+Alt+Backspace</description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>dvakop</name>
+        <description>Dvakop</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>dvakop:dvakop</name>
+          <description>Dvakop</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>dvakop:modifiers</name>
+          <description>Dvakop modifiers</description>
         </configItem>
       </option>
     </group>
