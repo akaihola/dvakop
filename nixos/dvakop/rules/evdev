@@ -1,0 +1,5 @@
+! option                =       symbols
+  dvakop:dvakop          =   +dvakop(dvakop)
+  dvakop:modifiers       =   +dvakop(modifiers)
+
+! include %S/evdev
