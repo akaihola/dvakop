@@ -5,9 +5,14 @@ based on the [Airas keyboard] which was a Dvorak layout variant based on Finnish
 I still use this layout on all my computers (NixOS and Win11 these days).
 
 This repository contains resources for adding this custom layout for different operating systems:
-- Fedora Linux
+- Fedora Linux:
+  - Fedora 26
+  - Fedora 29
 - NixOS Linux
 - Ubuntu Linux
+  - Ubuntu 18.10
+  - Ubuntu 19.10
+  - Ubuntu 20.04
 - Windows 11
 
 Other similar efforts:
