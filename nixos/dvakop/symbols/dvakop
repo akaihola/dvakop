@@ -47,7 +47,7 @@ xkb_symbols "dvakop" {
     key <LatJ> { [  l,               L,                u,                 U               ] };
     key <LatK> { [  t,               T,                e,                 E               ] };
     key <LatL> { [  n,               N,                o,                 O               ] };
-    key <AC10> { [  s,               S,                a,                 A               ] };
+    key <AC10> { [  s,               S,                scaron,            Scaron          ] };
     key <AC11> { [  minus,           underscore,       endash,            emdash          ] };
     key <BKSL> { [  slash,           asterisk,         dead_caron,        dead_breve      ] };
     key <LatZ> { [  z,               Z,                zcaron,            Zcaron          ] };
